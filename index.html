@@ -6,22 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Все для саду</title>
     <link rel="website icon" type="ico"
-    href="img/icons/Icons8-Ios7-Plants-Garden-Shears.ico">
+    href="../main/site/img/pic/Icons8-Ios7-Plants-Garden-Shears.ico">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
-<body background="../myproject/img/bg/body-bg.jpg">
+  <header>
+  <div id="header">
     <h1 align="center"><i>Все для ландшафтного дизайну</i></h1>
     <nav align="center" >
       <font size="5">
-      <a href="">Ассортимент</a> | 
-      <a href="">Наші представники</a> |
-      <a href="">Зображення</a> |
-      <a href="">Контакти</a>
+      <a href="../main.html">| Основна сторінка</a> |
+      <a href="../myproject/index.html">Про мене</a> | 
+      <a href="../table/index.html">Мій розклад</a> |
       </font> 
     </nav> 
+  </div>
+</header>
+<body background="../myproject/img/bg/body-bg.jpg">
+  <section>
+  <div id="content">
     <hr size="2" color="fff">
     <marquee behavior="" direction="" bgcolor="green">Вас вітає сайт магазину рослин<b>"Все для саду"</b></marquee>
     <hr size="2" color="fff">
-    <p>
+    <ul>
+      <li><a href="#about"><b>Про дерева</b></a></li>
+      <li><a href="#pic"><b>Зобаження рослин</b></a></li>
+    </ul>
+    
+    <p id="p1">
     <font size="5">
     <ul><b>Будь-які рослини для вашого двору та саду</b></ul>
     </font>
@@ -33,6 +44,7 @@
     </font>
     </p>
     <p>
+      <a id="about"> </a>
       <font size="5">
         <dl align="center">Коротко про дерева</dl>
       </font>
@@ -47,7 +59,7 @@
         </ul>
       </font>
     </p>
-    <p>
+    <p fontfamily="Consolas"  >
         Магазини у яких ви можете придбати наші рослини:
     <ol>
         <li>Магазин квітів "Ромашка"</li>
@@ -55,17 +67,30 @@
         <li>Подарунковий магазин "Візит"</li>
     </ol>
     </p>
+    <a id="pic"> </a>
+    <div id="align">
+    <aside align="right" >
+      <h2> Новини Магазину</h2>
+      Недавно наш магазин відсвядкував 3 роки<br>
+      з моменту відкриття<br>
+      Вітаємо!!!
+    </aside>
+  </div>
   <p>
     <h1 align="center"><b>Квіти у продажі:</b></h1>
-    <img src="../myproject/img/plants/kvitu/gor1.jpg" alt="" width="300" height="300">
-    <img src="../myproject/img/plants/kvitu/gor2.jpg" alt="" width="300" height="300">
-    <img src="../myproject/img/plants/kvitu/gor3.jpg" alt="" width="400" height="300">
-    <img src="../myproject/img/plants/kvitu/gor4.jpg" alt="" width="400" height="300">
+    <img src="/myproject/img/plants/kvitu/gor1.jpg" alt="" width="300" height="300">
+    <img src="/myproject/img/plants/kvitu/gor2.jpg" alt="" width="300" height="300">
+    <img src="/myproject/img/plants/kvitu/gor3.jpg" alt="" width="400" height="300">
+    <img src="/myproject/img/plants/kvitu/gor4.jpg" alt="" width="400" height="300">
   </p>
     <hr size="2" color="fff">
     <marquee behavior="" direction="" bgcolor="green"><i>Тут може бути ваша реклама</i></marquee>
     <hr size="2" color="fff">
-    <footer>
+  </section>
+  </body>
+  </div>
+    <footer>  
+      <div id="footer">
       <p style="margin-left: 1000px">
       Адреса: вул.Б.Лепкого 81 <br>
       Номер телефону: +380669588156 <br>
@@ -73,5 +98,5 @@
       m.maksim20051122@gmail.com
       </p>
     </footer>
-</body>
+  </div>
 </html>

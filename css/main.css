@@ -1,0 +1,30 @@
+
+   #header{
+    border: 2px solid #000;    
+    background-color: #8a8a8a;
+   }
+   #body{
+    background-color:rgb(0, 255, 255);
+   }
+   #footer{
+    border: 2px solid #000;    
+    background-color: #8a8a8a;
+    
+   }
+   @font-face {
+    font-family: Calibri; 
+    src: url('Calibri.ttf'), 
+    url('Calibri.eot') 
+   }
+   p 
+   {
+    font-family: Consolas;
+   }
+   #align{
+    margin: 40px 40px 70px 40px;
+   }
+   #p1{
+    background-color: #8a8a8a;
+    border: 1px solid #000;
+   }
+   
